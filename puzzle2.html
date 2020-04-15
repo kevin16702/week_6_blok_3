@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Puzzle 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+
+<div class="container">
+    <div class="navbar bg-secondary flex-row-reverse p-1">
+        <div class="text-light navbar-nav ml-auto mr-3">
+            <h1>Bootstrap Puzzle 2</h1>
+        </div>
+        <div class="dropdown mr-auto">
+            <a class="fas fa-bars fa-3x text-light ml-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+            <ul class="dropdown-menu"  aria-labelledby="dropdownMenuButton">
+                <li class="dropdown-item"><a class="text-dark" href="index.html">Home</a></li>
+                <li class="dropdown-item"><a class="text-dark" href="puzzle1.html">Puzzle 1</a></li>
+                <li class="dropdown-item"><a class="text-dark" href="puzzle2.html">Puzzle 2</a></li>
+                <li class="dropdown-item"><a class="text-dark" href="puzzle3.html">Puzzle 3</a></li>
+                <li class="dropdown-item"><a class="text-dark" href="bonus.html">Bonus</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <a class="carousel-item  active" href="img/img1.jpg" target="_blank">
+                <img src="img/img1.jpg" class="img-fluid" alt="slide">
+                <span class="carousel-caption lead font-weight-normal">Bekijk Boom 1</span>
+            </a>
+            <a class="carousel-item " href="img/img2.jpg" target="_blank">
+                <img src="img/img2.jpg" class="img-fluid" alt="slide">
+                <span class="carousel-caption lead font-weight-normal">Bekijk Boom 2</span>
+            </a>
+            <a class="carousel-item " href="img/img3.jpg" target="_blank">
+                <img src="img/img3.jpg" class="img-fluid" alt="slide">
+                <span class="carousel-caption lead font-weight-normal">Bekijk Boom 3</span>
+            </a>
+            <a class="carousel-item " href="img/img4.jpg" target="_blank">
+                <img src="img/img4.jpg" class="img-fluid" alt="slide">
+                <span class="carousel-caption lead font-weight-normal">Bekijk Boom 4</span>
+            </a>
+            <a class="carousel-item " href="img/img5.jpg" target="_blank">
+                <img src="img/img5.jpg" class="img-fluid" alt="slide">
+                <span class="carousel-caption lead font-weight-normal">Bekijk Boom 5</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-secondary row justify-content-around m-0">
+        <div class="col-6">
+            <div class="bg-light text-right row border-light border justify-content-center m-3">
+                <img src="img/item1.jpg" class="col-3 p-0 mt-2">
+                <h2 class="bg-info col-8 mb-0 mt-2 text-light h-100">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item1text" class="dropdown-menu ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p type="button" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" class="btn-info align-self-end my-2 mr-4 ml-auto py-1 px-2"><a class="text-light" href="#item1text">Lees meer &hellip;</a></p>
+            </div>
+            <div class="bg-light text-right row border-light border justify-content-center m-3">
+                <img src="img/item2.jpg" class="col-3 p-0 mt-2">
+                <h2 class="bg-info col-8 mb-0 mt-2 text-light h-100">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item2text" class="dropdown-menu ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p type="button" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" class="btn-info align-self-end my-2 mr-4 ml-auto py-1 px-2"><a class="text-light" href="#item2text">Lees meer &hellip;</a></p>
+            </div>
+            <div class="bg-light text-right row border-light border justify-content-center m-3">
+                <img src="img/item3.jpg" class="col-3 p-0 mt-2">
+                <h2 class="bg-info col-8 mb-0 mt-2 text-light h-100">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item3text" class="dropdown-menu ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p type="button" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" class="btn-info align-self-end my-2 mr-4 ml-auto py-1 px-2"><a class="text-light" href="#item3text">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="bg-light text-right row border-light border justify-content-center m-3">
+                <img src="img/item4.jpg" class="col-3 p-0 mt-2">
+                <h2 class="bg-info col-8 mb-0 mt-2 text-light h-100">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item4text" class="dropdown-menu ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p type="button" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" class="btn-info align-self-end my-2 mr-4 ml-auto py-1 px-2"><a class="text-light" href="#item4text">Lees meer &hellip;</a></p>
+            </div>
+            <div class="bg-light text-right row border-light border justify-content-center m-3">
+                <img src="img/item5.jpg" class="col-3 p-0 mt-2">
+                <h2 class="bg-info col-8 mb-0 mt-2 text-light h-100">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item5text" class="dropdown-menu ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p type="button" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" class="btn-info align-self-end my-2 mr-4 ml-auto py-1 px-2"><a class="text-light" href="#item5text">Lees meer &hellip;</a></p>
+            </div>
+            <div class="bg-light text-right row border-light border justify-content-center m-3">
+                <img src="img/item6.jpg" class="col-3 p-0 mt-2">
+                <h2 class="bg-info col-8 mb-0 mt-2 text-light h-100">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item6text" class="dropdown-menu ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p type="button" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" class="btn-info align-self-end my-2 mr-4 ml-auto py-1 px-2"><a class="text-light" href="#item6text">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid row">
+        <div class="ml-auto my-3">
+            <span>Created with:</span>
+            <a href="https://getbootstrap.com/" target="_blank"><img src="img/logo-bootstrap.png"></a>
+            <a href="https://fontawesome.com/" target="_blank"><img src="img/logo-fontawsome.png"></a>
+            <a href="https://w3schools.com/" target="_blank"><img src="img/logo-w3schools.png"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
